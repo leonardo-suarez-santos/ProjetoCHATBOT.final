@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <Button
+        android:id="@+id/btn_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/siplancontrol" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="98dp"
+        android:layout_gravity="center"
+        android:paddingTop="90sp"
+        android:text=""
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/txt_nome"
+        android:layout_width="259dp"
+        android:layout_height="38dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/login_edittext_bg"
+        android:ems="1"
+        android:hint="@string/lbl_nome"
+        android:inputType="textPersonName"
+        android:selectAllOnFocus="true"
+
+        android:singleLine="false"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/txt_sobrenome"
+        android:layout_width="259dp"
+        android:layout_height="38dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/login_edittext_bg"
+        android:ems="1"
+        android:hint="@string/Sobrenome"
+        android:inputType="textPersonName"
+        android:selectAllOnFocus="true"
+
+        android:singleLine="false"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/txt_email"
+        android:layout_width="259dp"
+        android:layout_height="38dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/login_edittext_bg"
+        android:ems="1"
+        android:hint="@string/lbl_email"
+        android:inputType="textEmailAddress"
+        android:selectAllOnFocus="true"
+
+        android:singleLine="false"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/btn_enviar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+
+        android:background="@drawable/round_corner_button"
+        android:onClick="salvarUsuario"
+        android:text="@string/acessar"
+        android:textColor="@color/colorLetter"
+
+        />
+
+
+</LinearLayout>

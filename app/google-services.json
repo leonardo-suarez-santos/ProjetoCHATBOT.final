@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "113930902097",
+    "firebase_url": "https://chatbotlss-2ea25.firebaseio.com",
+    "project_id": "chatbotlss-2ea25",
+    "storage_bucket": "chatbotlss-2ea25.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:113930902097:android:970659bade8ea61f",
+        "android_client_info": {
+          "package_name": "com.leonardo_soares_santos.chatbotlss"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "113930902097-emk38225mb65ceaqscm4rj1cnqt1g7ma.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.leonardo_soares_santos.chatbotlss",
+            "certificate_hash": "6d10a0a651ec41536fe073f454619686b139ec7f"
+          }
+        },
+        {
+          "client_id": "113930902097-m08pgss3sab3g8kmc7b9os5lau7itoun.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "113930902097-m08pgss3sab3g8kmc7b9os5lau7itoun.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBk-TDk9ZnfjU4aLoXeYU9EJte9LL3cyZc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "113930902097-m08pgss3sab3g8kmc7b9os5lau7itoun.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

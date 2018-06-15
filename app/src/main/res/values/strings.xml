@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ProjetoChatBot8Bits</string>
+    <string name="lbl_nome">Nome</string>
+    <string name="lbl_email">E-mail</string>
+    <string name="lbl_enviar">Enviar</string>
+    <string name="escreva_a_mensagem">Escreva a mensagem</string>
+    <string name="bem_vindo_ao_chatbot">Bem vindo(a) ao ChatBot</string>
+    <string name="Sobrenome">Sobrenome</string>
+    <string name="acessar">Acessar</string>
+
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#830018</color>
+    <color name="colorPrimaryDark">#830018</color>
+    <color name="colorAccent">#000</color>
+    <color name="colorLetter">#FFF</color>
+    <color name="colorbd">#9f9698</color>
+    <color name="colort">#125f9e</color>
+    <color name="colorbranco">#ffffff</color>
+    <color name="corChat">#fa0463b1</color>
+    <color name="respostaChat">#fa3da7ff</color>
+
+</resources>

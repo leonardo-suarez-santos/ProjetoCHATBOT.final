@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/colorbranco"
+    android:layout_height="match_parent"
+    tools:context=".Activitys.ChatActivity">
+
+
+    <Button
+        android:id="@+id/btn_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/siplancontrol"
+        />
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="52dp"
+            android:layout_height="42dp"
+            android:layout_alignParentTop="true"
+            android:layout_toStartOf="@+id/chatMessageView"
+            app:srcCompat="@drawable/botservice" />
+
+        <me.himanshusoni.chatmessageview.ChatMessageView
+            android:id="@+id/chatMessageView"
+            android:layout_width="293dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="14dp"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            app:cmv_arrowGravity="start"
+            app:cmv_arrowPosition="left"
+            app:cmv_backgroundColor="@color/respostaChat"
+            app:cmv_backgroundColorPressed="#ff00bcd4"
+            app:cmv_cornerRadius="3dp"
+            app:cmv_showArrow="true">
+
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:text="Helloworld"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+
+        </me.himanshusoni.chatmessageview.ChatMessageView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+
+
+
+
+
+        <ListView
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fadeScrollbars="true"
+            android:background="@drawable/circulo_drawable"
+            android:layout_marginRight="5sp"
+            android:layout_above="@id/send_message_layout"
+            android:layout_marginLeft="5sp"
+            android:text=""
+
+
+
+            />
+
+        <LinearLayout
+            android:id="@+id/send_message_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="#ffdddddd"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/iv_image"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/bot" />
+
+
+            <EditText
+                android:id="@+id/et_message"
+                android:layout_width="206dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1" />
+
+
+            <ImageView
+                android:id="@+id/iv_image2"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/sent" />
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>
